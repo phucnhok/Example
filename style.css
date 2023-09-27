@@ -1,0 +1,368 @@
+body {
+    font-family: "Spectral", serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: gray;
+}
+
+.img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+
+.row-head {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0 5px 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.reg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.li {
+    color: white;
+}
+
+.section1-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(185, 231, 187);
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div div h2 {
+    color: rgb(22, 99, 97);
+}
+
+div div p {
+    color: #2f0f0f;
+}
+
+.GDFGM {
+    display: flex;
+    justify-content: center;
+    transform: rotate(-4deg);
+    margin-top: 70px;
+}
+
+.mb1 {
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.rm {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.psection1 {
+    margin: 20px 20px 0 20px;
+}
+
+.section2-1 {
+    margin: 20px;
+    padding: 0px 40px 0px 40px;
+}
+
+.hinhanh1 {
+    background-image: url(https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sort .img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.sort .img:after {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    content: '';
+    border: 1px solid #b7472a;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    color: rgb(220, 167, 167);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.danhsach {
+    display: flex;
+}
+
+.displayflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.mb4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.product-select {
+    font-size: 18px;
+}
+
+.mt5 {
+    margin-top: 3rem !important;
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.product {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.product .img {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    border-radius: 4px;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.custom-img {
+    height: 350px;
+    border-radius: 40%;
+}
+
+.row-listrender {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 20px 5px 20px;
+    padding-top: 30px;
+}
+
+.col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.btn-ViewAllProducts {
+    border-radius: 3px;
+    box-shadow: none !important;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff !important;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: indianred;
+}
+
+.category {
+    color: rgb(225, 74, 74);
+    font-size: 15px;
+}
+
+.h2custom {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.hinhanh2 {
+    background-image: url(https://preview.colorlib.com/theme/liquorstore/images/bg_4.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .9;
+    background-attachment: fixed;
+    margin-top: 50px;
+    display: flex;
+    background-color: grey;
+}
+
+.container2 {
+    max-width: 960px;
+    max-height: 1600px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-cursive {
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.text-fontsize-20px {
+    font-size: 20px;
+}
+
+.text-fontsize-30px {
+    font-size: 30px;
+}
+
+.text {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 960px;
+    max-height: 1600px;
+    flex-wrap: wrap;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.div10 {
+
+    flex-direction: column;
+    box-sizing: border-box;
+    /* margin-right: 50px; */
+    justify-content: space-around;
+}
+
+.div9 {
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div5 {
+
+    flex-direction: column;
+    /* margin-right: 30px; */
+}
+
+.footer {
+    font-size: 16px;
+    padding: 4em 0 0 0;
+    background: #1a1a1a;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-all {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: whitesmoke;
+    margin: 5px 0 5px 0;
+}
+
+.ctu {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.formContact {
+    padding: 0 20px;
+}
+
+.p-word {
+    max-width: 260px;
+    word-wrap: break-word;
+}
